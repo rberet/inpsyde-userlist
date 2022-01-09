@@ -1,0 +1,71 @@
+/* Styling for the custom page */
+
+body section#primary.inpsyde-block {
+    float: none !important;
+    margin: auto;
+}
+
+.users-table-container {
+    position: relative;
+    padding: 25px;
+}
+
+.users-table tr td:nth-of-type( 1) {
+    padding-left: 20px;
+}
+
+.users-table tr {
+    transition: background-color .3s ease-out;
+}
+
+.users-table tr:nth-of-type(2n) {
+    background-color: #ffffff;
+}
+
+.users-table tr:hover {
+    background-color: #cecece;
+}
+
+.user-info {
+    position: relative;
+    display: none;
+    padding: 25px;
+    margin-top:
+}
+
+.user-info h2 {
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.loader-container {
+    position: relative;
+    background-color: #ffffff;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    transition: opacidy display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.details-grid div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
+}
